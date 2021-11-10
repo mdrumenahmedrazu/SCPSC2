@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Stafflist">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:gravity="center"
+                android:text="Staffs"
+                android:textColor="#FFF"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                >
+
+            </TextView>
+        </LinearLayout>
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon1"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:src="@drawable/os"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon1"
+                            app:layout_constraintTop_toTopOf="@id/imageicon1"
+                            android:text="@string/pobitro_kumar_singh"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:id="@+id/textItemdot1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Office Super"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem1"
+                            app:layout_constraintStart_toStartOf="@id/textItem1"
+                            app:layout_constraintTop_toBottomOf="@id/textItem1"
+                            >
+
+                        </TextView>
+                        <Button
+                            android:id="@+id/callOS"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItemdot1"
+                            android:layout_width="80dp"
+                            android:layout_height="40dp"
+                            android:text="Call">
+
+                        </Button>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon2"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+
+                            android:src="@drawable/ac"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon2"
+                            app:layout_constraintTop_toTopOf="@id/imageicon2"
+                            android:text="@string/shahid_ahmed"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:id="@+id/textItemdot2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Accountant"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem2"
+                            app:layout_constraintStart_toStartOf="@id/textItem2"
+                            app:layout_constraintTop_toBottomOf="@id/textItem2"
+                            >
+
+                        </TextView>
+                        <Button
+                            android:id="@+id/callAC"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItemdot2"
+                            android:layout_width="80dp"
+                            android:layout_height="40dp"
+                            android:text="Call">
+
+                        </Button>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon3"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+
+                            android:src="@drawable/oa1"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon3"
+                            app:layout_constraintTop_toTopOf="@id/imageicon3"
+                            android:text="@string/mir_rokibul_islam"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:id="@+id/textItemdot3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Office Assistant"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem3"
+                            app:layout_constraintStart_toStartOf="@id/textItem3"
+                            app:layout_constraintTop_toBottomOf="@id/textItem3"
+                            >
+
+                        </TextView>
+                        <Button
+                            android:id="@+id/callOA1"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItemdot3"
+                            android:layout_width="80dp"
+                            android:layout_height="40dp"
+                            android:text="Call">
+
+                        </Button>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon4"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:src="@drawable/oa2"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon4"
+                            app:layout_constraintTop_toTopOf="@id/imageicon4"
+                            android:text="@string/saidul_islam_majed"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:id="@+id/textItemdot4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Office Assistant"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem4"
+                            app:layout_constraintStart_toStartOf="@id/textItem4"
+                            app:layout_constraintTop_toBottomOf="@id/textItem4"
+                            >
+
+                        </TextView>
+                        <Button
+                            android:id="@+id/callOA2"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItemdot4"
+                            android:layout_width="80dp"
+                            android:layout_height="40dp"
+                            android:text="Call">
+
+                        </Button>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon5"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:src="@drawable/oa3"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon5"
+                            app:layout_constraintTop_toTopOf="@id/imageicon5"
+                            android:text="@string/abdul_halim"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:id="@+id/textItemdot5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Computer Operator"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem5"
+                            app:layout_constraintStart_toStartOf="@id/textItem5"
+                            app:layout_constraintTop_toBottomOf="@id/textItem5"
+                            >
+
+                        </TextView>
+                        <Button
+                            android:id="@+id/callOA3"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItemdot5"
+                            android:layout_width="80dp"
+                            android:layout_height="40dp"
+                            android:text="Call">
+
+                        </Button>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingBottom="20dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon6"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+
+                            android:src="@drawable/oa4"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem6"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon6"
+                            app:layout_constraintTop_toTopOf="@id/imageicon6"
+                            android:text="@string/md_rumen_ahmed_razu"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:id="@+id/textItemdot6"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Assistant Accountant"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem6"
+                            app:layout_constraintStart_toStartOf="@id/textItem6"
+                            app:layout_constraintTop_toBottomOf="@id/textItem6"
+                            >
+
+                        </TextView>
+                        <Button
+                            android:id="@+id/callOA4"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItemdot6"
+                            android:layout_width="80dp"
+                            android:layout_height="40dp"
+                            android:text="Call">
+
+                        </Button>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

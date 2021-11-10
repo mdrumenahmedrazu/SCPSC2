@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Administration">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:padding="10dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logo">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:weightSum="3">
+        <ImageView
+            android:onClick="btnAbout"
+            android:layout_width="150dp"
+            android:layout_weight="1"
+            android:layout_height="150dp"
+            android:src="@drawable/aboutus">
+        </ImageView>
+        <ImageView
+            android:onClick="btnTeacher"
+            android:layout_weight="1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/teachers">
+        </ImageView>
+        <ImageView
+            android:onClick="btnStaff"
+            android:layout_weight="1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/staffs">
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:weightSum="3">
+        <ImageView
+            android:onClick="btnAccounts"
+            android:layout_width="150dp"
+            android:layout_weight="1"
+            android:layout_height="150dp"
+            android:src="@drawable/tuition">
+        </ImageView>
+        <ImageView
+            android:onClick="btnRules"
+            android:layout_weight="1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/academicrules">
+        </ImageView>
+        <ImageView
+            android:onClick="btnBus"
+            android:layout_weight="1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/transport">
+        </ImageView>
+    </LinearLayout>
+</LinearLayout>

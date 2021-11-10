@@ -1,0 +1,2333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Teachers">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:gravity="center"
+                android:text="Teachers"
+                android:textColor="#FFF"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                >
+
+            </TextView>
+        </LinearLayout>
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon1"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon1"
+                            app:layout_constraintTop_toTopOf="@id/imageicon1"
+                            android:text="UMMAY KULSUM MONI"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:id="@+id/textItemdot1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Lecturer"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem1"
+                            app:layout_constraintStart_toStartOf="@id/textItem1"
+                            app:layout_constraintTop_toBottomOf="@id/textItem1"
+                            >
+
+                        </TextView>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon2"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon2"
+                            app:layout_constraintTop_toTopOf="@id/imageicon2"
+                            android:text="RAZIA SULTANA"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:id="@+id/textItemdot2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Lecturer"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem2"
+                            app:layout_constraintStart_toStartOf="@id/textItem2"
+                            app:layout_constraintTop_toBottomOf="@id/textItem2"
+                            >
+
+                        </TextView>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon3"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon3"
+                            app:layout_constraintTop_toTopOf="@id/imageicon3"
+                            android:text="MD. NAZMUL HAQUE"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Lecturer"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem3"
+                            app:layout_constraintStart_toStartOf="@id/textItem3"
+                            app:layout_constraintTop_toBottomOf="@id/textItem3"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:onClick="btnSir2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon4"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:src="@drawable/sir2"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon4"
+                            app:layout_constraintTop_toTopOf="@id/imageicon4"
+                            android:text="MD. MAHBUB ALAM"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Lecturer"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem4"
+                            app:layout_constraintStart_toStartOf="@id/textItem4"
+                            app:layout_constraintTop_toBottomOf="@id/textItem4"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon5"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon5"
+                            app:layout_constraintTop_toTopOf="@id/imageicon5"
+                            android:text="ABDULLAH AL-MAMUN"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Lecturer"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem5"
+                            app:layout_constraintStart_toStartOf="@id/textItem5"
+                            app:layout_constraintTop_toBottomOf="@id/textItem5"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon6"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem6"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon6"
+                            app:layout_constraintTop_toTopOf="@id/imageicon6"
+                            android:text="TUFAEL AHMED"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Lecturer"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem6"
+                            app:layout_constraintStart_toStartOf="@id/textItem6"
+                            app:layout_constraintTop_toBottomOf="@id/textItem6"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon7"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem7"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon7"
+                            app:layout_constraintTop_toTopOf="@id/imageicon7"
+                            android:text="KOWSER JANNAT"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Lecturer"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem7"
+                            app:layout_constraintStart_toStartOf="@id/textItem7"
+                            app:layout_constraintTop_toBottomOf="@id/textItem7"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon8"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem8"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon8"
+                            app:layout_constraintTop_toTopOf="@id/imageicon8"
+                            android:text="BELLAL HOSAIN"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Lecturer"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem8"
+                            app:layout_constraintStart_toStartOf="@id/textItem8"
+                            app:layout_constraintTop_toBottomOf="@id/textItem8"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon9"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem9"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon9"
+                            app:layout_constraintTop_toTopOf="@id/imageicon9"
+                            android:text="SAIKAT ROY"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Lecturer"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem9"
+                            app:layout_constraintStart_toStartOf="@id/textItem9"
+                            app:layout_constraintTop_toBottomOf="@id/textItem9"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:onClick="btnSir1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon10"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:src="@drawable/sir1"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem10"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon10"
+                            app:layout_constraintTop_toTopOf="@id/imageicon10"
+                            android:text="JOSHIMUDDIN"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Lecturer"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem10"
+                            app:layout_constraintStart_toStartOf="@id/textItem10"
+                            app:layout_constraintTop_toBottomOf="@id/textItem10"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon11"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem11"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon11"
+                            app:layout_constraintTop_toTopOf="@id/imageicon11"
+                            android:text="TAYABUR RASHID CHOWDHURY"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Lecturer"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem11"
+                            app:layout_constraintStart_toStartOf="@id/textItem11"
+                            app:layout_constraintTop_toBottomOf="@id/textItem11"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon12"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem12"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon12"
+                            app:layout_constraintTop_toTopOf="@id/imageicon12"
+                            android:text="SUBROTAO DAS"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Lecturer"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem12"
+                            app:layout_constraintStart_toStartOf="@id/textItem12"
+                            app:layout_constraintTop_toBottomOf="@id/textItem12"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon13"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem13"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon13"
+                            app:layout_constraintTop_toTopOf="@id/imageicon13"
+                            android:text="MD RIAZ HOSSAIN"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Lecturer"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem13"
+                            app:layout_constraintStart_toStartOf="@id/textItem13"
+                            app:layout_constraintTop_toBottomOf="@id/textItem13"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon14"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem14"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon14"
+                            app:layout_constraintTop_toTopOf="@id/imageicon14"
+                            android:text="MD. AL-MAMUN"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Lecturer"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem14"
+                            app:layout_constraintStart_toStartOf="@id/textItem14"
+                            app:layout_constraintTop_toBottomOf="@id/textItem14"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon15"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem15"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon15"
+                            app:layout_constraintTop_toTopOf="@id/imageicon15"
+                            android:text="MD ASHADUZZAMAN NAYAN"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Lecturer"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem15"
+                            app:layout_constraintStart_toStartOf="@id/textItem15"
+                            app:layout_constraintTop_toBottomOf="@id/textItem15"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon16"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem16"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon16"
+                            app:layout_constraintTop_toTopOf="@id/imageicon16"
+                            android:text="JOBAER"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Demonstrator"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem16"
+                            app:layout_constraintStart_toStartOf="@id/textItem16"
+                            app:layout_constraintTop_toBottomOf="@id/textItem16"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon17"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem17"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon17"
+                            app:layout_constraintTop_toTopOf="@id/imageicon17"
+                            android:text="MD AROZ ALI"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Demonstrator"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem17"
+                            app:layout_constraintStart_toStartOf="@id/textItem17"
+                            app:layout_constraintTop_toBottomOf="@id/textItem17"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon18"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem18"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon18"
+                            app:layout_constraintTop_toTopOf="@id/imageicon18"
+                            android:text="TAHMINA PERVIN"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Demonstrator"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem18"
+                            app:layout_constraintStart_toStartOf="@id/textItem18"
+                            app:layout_constraintTop_toBottomOf="@id/textItem18"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon19"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem19"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon19"
+                            app:layout_constraintTop_toTopOf="@id/imageicon19"
+                            android:text="SHIBBIR AHMED"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Assistant Teacher"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem19"
+                            app:layout_constraintStart_toStartOf="@id/textItem19"
+                            app:layout_constraintTop_toBottomOf="@id/textItem19"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon20"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem20"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon20"
+                            app:layout_constraintTop_toTopOf="@id/imageicon20"
+                            android:text="SUSMITA ROY"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Assistant Teacher"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem20"
+                            app:layout_constraintStart_toStartOf="@id/textItem20"
+                            app:layout_constraintTop_toBottomOf="@id/textItem20"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon21"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem21"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon21"
+                            app:layout_constraintTop_toTopOf="@id/imageicon21"
+                            android:text="MD. KHADEMUL ISLAM"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Assistant Teacher"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem21"
+                            app:layout_constraintStart_toStartOf="@id/textItem21"
+                            app:layout_constraintTop_toBottomOf="@id/textItem21"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon22"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem22"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon22"
+                            app:layout_constraintTop_toTopOf="@id/imageicon22"
+                            android:text="MD. MOSTAFIZUR RAHMAN"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Assistant Teacher"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem22"
+                            app:layout_constraintStart_toStartOf="@id/textItem22"
+                            app:layout_constraintTop_toBottomOf="@id/textItem22"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon23"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem23"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon23"
+                            app:layout_constraintTop_toTopOf="@id/imageicon23"
+                            android:text="ALI AHMED"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Assistant Teacher"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem23"
+                            app:layout_constraintStart_toStartOf="@id/textItem23"
+                            app:layout_constraintTop_toBottomOf="@id/textItem23"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon24"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem24"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon24"
+                            app:layout_constraintTop_toTopOf="@id/imageicon24"
+                            android:text="RAFAT SANIA"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Assistant Teacher"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem24"
+                            app:layout_constraintStart_toStartOf="@id/textItem24"
+                            app:layout_constraintTop_toBottomOf="@id/textItem24"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon25"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem25"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon25"
+                            app:layout_constraintTop_toTopOf="@id/imageicon25"
+                            android:text="MD. RASED MAHMUD"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Assistant Teacher"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem25"
+                            app:layout_constraintStart_toStartOf="@id/textItem25"
+                            app:layout_constraintTop_toBottomOf="@id/textItem25"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon26"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem26"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon26"
+                            app:layout_constraintTop_toTopOf="@id/imageicon26"
+                            android:text="MD AMINUL EHSHAN"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Assistant Teacher"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem26"
+                            app:layout_constraintStart_toStartOf="@id/textItem26"
+                            app:layout_constraintTop_toBottomOf="@id/textItem26"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon27"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem27"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon27"
+                            app:layout_constraintTop_toTopOf="@id/imageicon27"
+                            android:text="MD EMADUL ISLAM"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Assistant Teacher"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem27"
+                            app:layout_constraintStart_toStartOf="@id/textItem27"
+                            app:layout_constraintTop_toBottomOf="@id/textItem27"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon28"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem28"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon28"
+                            app:layout_constraintTop_toTopOf="@id/imageicon28"
+                            android:text="MOBASSARA AKTER"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Assistant Teacher"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem28"
+                            app:layout_constraintStart_toStartOf="@id/textItem28"
+                            app:layout_constraintTop_toBottomOf="@id/textItem28"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon29"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem29"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon29"
+                            app:layout_constraintTop_toTopOf="@id/imageicon29"
+                            android:text="LUKESH CHANDRA DAS"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Assistant Teacher"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem29"
+                            app:layout_constraintStart_toStartOf="@id/textItem29"
+                            app:layout_constraintTop_toBottomOf="@id/textItem29"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon30"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem30"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon30"
+                            app:layout_constraintTop_toTopOf="@id/imageicon30"
+                            android:text="JYOTI PROKASH TALUKDER"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Assistant Teacher"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem30"
+                            app:layout_constraintStart_toStartOf="@id/textItem30"
+                            app:layout_constraintTop_toBottomOf="@id/textItem30"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon31"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem31"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon31"
+                            app:layout_constraintTop_toTopOf="@id/imageicon31"
+                            android:text="SHAHIN KOWSAR"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Assistant Teacher"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem31"
+                            app:layout_constraintStart_toStartOf="@id/textItem31"
+                            app:layout_constraintTop_toBottomOf="@id/textItem31"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon32"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem32"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon32"
+                            app:layout_constraintTop_toTopOf="@id/imageicon32"
+                            android:text="AMINA KHANOM"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Assistant Teacher"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem32"
+                            app:layout_constraintStart_toStartOf="@id/textItem32"
+                            app:layout_constraintTop_toBottomOf="@id/textItem32"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon33"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem33"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon33"
+                            app:layout_constraintTop_toTopOf="@id/imageicon33"
+                            android:text="SHARMIN CHOWDHURY"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Assistant Teacher"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem33"
+                            app:layout_constraintStart_toStartOf="@id/textItem33"
+                            app:layout_constraintTop_toBottomOf="@id/textItem33"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon34"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem34"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon34"
+                            app:layout_constraintTop_toTopOf="@id/imageicon34"
+                            android:text="S.P. TASLIMA NASRIN"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Assistant Teacher"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem34"
+                            app:layout_constraintStart_toStartOf="@id/textItem34"
+                            app:layout_constraintTop_toBottomOf="@id/textItem34"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon35"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem35"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon35"
+                            app:layout_constraintTop_toTopOf="@id/imageicon35"
+                            android:text="MD MEHEDI HASAN"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Assistant Teacher"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem35"
+                            app:layout_constraintStart_toStartOf="@id/textItem35"
+                            app:layout_constraintTop_toBottomOf="@id/textItem35"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon36"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem36"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon36"
+                            app:layout_constraintTop_toTopOf="@id/imageicon36"
+                            android:text="FARJANA RAHMAN"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Assistant Teacher"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem36"
+                            app:layout_constraintStart_toStartOf="@id/textItem36"
+                            app:layout_constraintTop_toBottomOf="@id/textItem36"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon37"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem37"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon37"
+                            app:layout_constraintTop_toTopOf="@id/imageicon37"
+                            android:text="AHMED FARHANA KHANAM"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Assistant Teacher"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem37"
+                            app:layout_constraintStart_toStartOf="@id/textItem37"
+                            app:layout_constraintTop_toBottomOf="@id/textItem37"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginTop="15dp"
+
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/db_bg">
+                        <ImageView
+                            android:id="@+id/imageicon38"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginStart="12dp"
+                            android:padding="10dp"
+                            android:src="@drawable/cheif"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        </ImageView>
+                        <TextView
+                            android:id="@+id/textItem38"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/imageicon38"
+                            app:layout_constraintTop_toTopOf="@id/imageicon38"
+                            android:text="MOHI UDDIN"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+
+                            android:ellipsize="end"
+                            android:maxLines="2"
+                            android:text="Assistant Teacher"
+                            android:textColor="#000000"
+                            android:paddingBottom="12dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@id/textItem38"
+                            app:layout_constraintStart_toStartOf="@id/textItem38"
+                            app:layout_constraintTop_toBottomOf="@id/textItem38"
+                            >
+
+                        </TextView>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+               
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
